@@ -615,8 +615,8 @@ production stylesheet in assets/built/screen.css
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   padding: 0;
   cursor: pointer;
   background-color: transparent;
@@ -654,8 +654,8 @@ production stylesheet in assets/built/screen.css
 .gh-burger {
   position: relative;
   display: none;
-  width: 30px;
-  height: 30px;
+  width: 48px;
+  height: 48px;
   padding: 0;
   margin-right: -3px;
   cursor: pointer;
@@ -667,7 +667,7 @@ production stylesheet in assets/built/screen.css
 .gh-burger::before,
 .gh-burger::after {
   position: absolute;
-  left: 3px;
+  left: 12px;
   width: 24px;
   height: 1px;
   content: "";
@@ -681,20 +681,20 @@ production stylesheet in assets/built/screen.css
 }
 
 .gh-burger::before {
-  top: 11px;
+  top: 20px;
 }
 
 .gh-burger::after {
-  bottom: 11px;
+  bottom: 20px;
 }
 
 .gh-head-open .gh-burger::before {
-  top: 15px;
+  top: 24px;
   transform: rotate(45deg);
 }
 
 .gh-head-open .gh-burger::after {
-  bottom: 14px;
+  bottom: 23px;
   transform: rotate(-45deg);
 }
 
